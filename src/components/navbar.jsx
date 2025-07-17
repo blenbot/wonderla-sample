@@ -36,7 +36,7 @@ const NavBar = ()=> {
                         <NavComponent icon={locationIcon} componentName='LOCATIONS' />
                         <img src={downArrowIcon} alt='downarrow' className='m-0 transition-transform duration-200 group-hover:rotate-180'/>
                         <div className="h-10 absolute top-4 w-full"></div>
-                        <div className='w-72 hidden transform -translate-x-1/4 group-hover:block absolute font-mulish top-14 z-10 bg-white rounded-3xl p-4 '>
+                        <div className='w-72 hidden transform -translate-x-1/4 group-hover:block absolute font-mulish top-12 z-10 bg-white rounded-3xl p-4 '>
                            <div className='flex flex-col'>
                              <DownArrow img={Kochi} location='Kochi' bottom={true}/>
                              <DownArrow img={Bengaluru} location='Bengaluru' bottom={true} sidepanel={true} sideitemimg1={Resort} type1='Resort' sidepanelbottom1={true} sideitemimg2={Park} type2='Park'/>
