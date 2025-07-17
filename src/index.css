@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+*{
+  scrollbar-width: none;
+}
+
+.embla {
+  --slide-spacing: 1rem;
+}
+.embla__container {
+  display: flex;
+}
+.embla__viewport{
+  height: 400px;
+  overflow: hidden;
+}
+.embla__controls{
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+  display: grid;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
