@@ -1,4 +1,4 @@
-import Air_race from '../assets/land_slides_videos/Air_race.mp4';
+import Air_race from '../assets/land_slides_videos/Air_Race.mp4';
 import Space_gun from '../assets/land_slides_videos/Space_gun.mp4';
 import Equinox from '../assets/land_slides_videos/Equinox.mp4';
 import G_Fall from '../assets/land_slides_videos/G_Fall.mp4';
